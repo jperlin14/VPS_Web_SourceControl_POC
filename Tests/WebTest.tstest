@@ -3459,6 +3459,47 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "84fad772-93b5-4542-ae5a-c099a0c4eda1",
+            "Description": "Execute test 'Function_GenerateRandomShortProgramName'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Function_GenerateRandomShortProgramName",
+                "TestPath": "Functions\\Function_GenerateRandomShortProgramName.tstest",
+                "TestUniqueId": "b5fffe3a-de2e-4313-8949-7b31acdbf765",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 43,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WebTest0kajin2i.pvk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "46db9e5f-6ef0-4918-b192-e51bc323b97d",
             "Description": "Wait for 'ShortName_value' is enabled",
             "CustomDescription": null,
@@ -3556,7 +3597,7 @@
               }
             },
             "Enabled": true,
-            "Order": 43,
+            "Order": 44,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3570,7 +3611,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6f127d01-8c7c-4c08-9efe-006a528a3dc5",
-            "Description": "Enter text 'Short title' in 'ShortName_value'",
+            "Description": "Enter text 'Short title' in 'ShortName_value' - DataDriven: [$(RandomShortProgramName)]",
             "CustomDescription": "Enter text in 'ShortNameText' - DataDriven: [$(ShortTitle)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -3675,14 +3716,14 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {
-                  "Text": "$(ShortTitle)"
+                  "Text": "$(RandomShortProgramName)"
                 },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 44,
+            "Order": 45,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3696,7 +3737,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4446011b-2cad-4d92-baaf-2288bd732fbb",
-            "Description": "Wait for input 'ShortName_value' value 'Exact' ''. - DataDriven: [$(ShortTitle)]",
+            "Description": "Wait for input 'ShortName_value' value 'Exact' ''. - DataDriven: [$(RandomShortProgramName)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -3790,12 +3831,12 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {
-                  "ExpectedValue": "$(ShortTitle)"
+                  "ExpectedValue": "$(RandomShortProgramName)"
                 }
               }
             },
             "Enabled": true,
-            "Order": 45,
+            "Order": 46,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3834,7 +3875,7 @@
               }
             },
             "Enabled": true,
-            "Order": 46,
+            "Order": 47,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3944,11 +3985,52 @@
               }
             },
             "Enabled": true,
-            "Order": 47,
+            "Order": 48,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "WebTestocex25v0.yq2",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f3a5a67c-2a46-4d56-9f8e-2fc29c95aa9b",
+            "Description": "Execute test 'Function_GenerateRandomShowCode'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Function_GenerateRandomShowCode",
+                "TestPath": "Functions\\Function_GenerateRandomShowCode.tstest",
+                "TestUniqueId": "c7392e9a-c38d-45aa-bc7d-dcef22a0b528",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 49,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WebTestdngma4zk.cea",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -4054,7 +4136,7 @@
               }
             },
             "Enabled": true,
-            "Order": 48,
+            "Order": 50,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4068,7 +4150,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f034a7a8-8012-46b2-8d3b-5b35bad5d816",
-            "Description": "Enter text 'TRYU' in 'ShowCode_input' - DataDriven: [$(ProgramShowCode)]",
+            "Description": "Enter text 'TRYU' in 'ShowCode_input' - DataDriven: [$(RandomShowCode)]",
             "CustomDescription": "Enter text in 'ShowCode_input' - DataDriven: [$(ProgramShowCode)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -4173,14 +4255,14 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {
-                  "Text": "$(ProgramShowCode)"
+                  "Text": "$(RandomShowCode)"
                 },
                 "_canEncrypt": false,
                 "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 49,
+            "Order": 51,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4290,7 +4372,7 @@
               }
             },
             "Enabled": true,
-            "Order": 50,
+            "Order": 52,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4304,7 +4386,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "19fbfb82-bef1-4c38-a181-9fb58de0dff5",
-            "Description": "Wait for input 'ShowCode_input' value 'Exact' 'Code1'.",
+            "Description": "Wait for input 'ShowCode_input' value 'Exact' 'Code1'. - DataDriven: [$(RandomShowCode)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -4397,11 +4479,13 @@
                 "StepType": 1,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "ExpectedValue": "$(RandomShowCode)"
+                }
               }
             },
             "Enabled": true,
-            "Order": 51,
+            "Order": 53,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4440,7 +4524,7 @@
               }
             },
             "Enabled": true,
-            "Order": 52,
+            "Order": 54,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4544,7 +4628,7 @@
               }
             },
             "Enabled": true,
-            "Order": 53,
+            "Order": 55,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4647,7 +4731,7 @@
               }
             },
             "Enabled": true,
-            "Order": 54,
+            "Order": 56,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4758,7 +4842,7 @@
               }
             },
             "Enabled": true,
-            "Order": 55,
+            "Order": 57,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4870,7 +4954,7 @@
               }
             },
             "Enabled": true,
-            "Order": 56,
+            "Order": 58,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4909,7 +4993,7 @@
               }
             },
             "Enabled": true,
-            "Order": 57,
+            "Order": 59,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5021,7 +5105,7 @@
               }
             },
             "Enabled": true,
-            "Order": 58,
+            "Order": 60,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5132,7 +5216,7 @@
               }
             },
             "Enabled": true,
-            "Order": 59,
+            "Order": 61,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5243,7 +5327,7 @@
               }
             },
             "Enabled": true,
-            "Order": 60,
+            "Order": 62,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5355,7 +5439,7 @@
               }
             },
             "Enabled": true,
-            "Order": 61,
+            "Order": 63,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -5394,7 +5478,7 @@
               }
             },
             "Enabled": true,
-            "Order": 62,
+            "Order": 64,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5504,7 +5588,7 @@
               }
             },
             "Enabled": true,
-            "Order": 63,
+            "Order": 65,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5630,7 +5714,7 @@
               }
             },
             "Enabled": true,
-            "Order": 64,
+            "Order": 66,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5669,7 +5753,7 @@
               }
             },
             "Enabled": true,
-            "Order": 65,
+            "Order": 67,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5781,7 +5865,7 @@
               }
             },
             "Enabled": true,
-            "Order": 66,
+            "Order": 68,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5909,7 +5993,7 @@
               }
             },
             "Enabled": true,
-            "Order": 67,
+            "Order": 69,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6024,7 +6108,7 @@
               }
             },
             "Enabled": true,
-            "Order": 68,
+            "Order": 70,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6139,7 +6223,7 @@
               }
             },
             "Enabled": true,
-            "Order": 69,
+            "Order": 71,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6178,7 +6262,7 @@
               }
             },
             "Enabled": true,
-            "Order": 70,
+            "Order": 72,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6290,7 +6374,7 @@
               }
             },
             "Enabled": true,
-            "Order": 71,
+            "Order": 73,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6401,7 +6485,7 @@
               }
             },
             "Enabled": true,
-            "Order": 72,
+            "Order": 74,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6512,7 +6596,7 @@
               }
             },
             "Enabled": true,
-            "Order": 73,
+            "Order": 75,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6626,7 +6710,7 @@
               }
             },
             "Enabled": true,
-            "Order": 74,
+            "Order": 76,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6665,7 +6749,7 @@
               }
             },
             "Enabled": true,
-            "Order": 75,
+            "Order": 77,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6769,7 +6853,7 @@
               }
             },
             "Enabled": true,
-            "Order": 76,
+            "Order": 78,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6878,7 +6962,7 @@
               }
             },
             "Enabled": true,
-            "Order": 77,
+            "Order": 79,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6981,7 +7065,7 @@
               }
             },
             "Enabled": true,
-            "Order": 78,
+            "Order": 80,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7097,7 +7181,7 @@
               }
             },
             "Enabled": true,
-            "Order": 79,
+            "Order": 81,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7209,7 +7293,7 @@
               }
             },
             "Enabled": true,
-            "Order": 80,
+            "Order": 82,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -7248,7 +7332,7 @@
               }
             },
             "Enabled": true,
-            "Order": 81,
+            "Order": 83,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7352,7 +7436,7 @@
               }
             },
             "Enabled": true,
-            "Order": 82,
+            "Order": 84,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7455,7 +7539,7 @@
               }
             },
             "Enabled": true,
-            "Order": 83,
+            "Order": 85,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7566,7 +7650,7 @@
               }
             },
             "Enabled": true,
-            "Order": 84,
+            "Order": 86,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7680,7 +7764,7 @@
               }
             },
             "Enabled": true,
-            "Order": 85,
+            "Order": 87,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -7719,7 +7803,7 @@
               }
             },
             "Enabled": true,
-            "Order": 86,
+            "Order": 88,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7823,7 +7907,7 @@
               }
             },
             "Enabled": true,
-            "Order": 87,
+            "Order": 89,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7926,7 +8010,7 @@
               }
             },
             "Enabled": true,
-            "Order": 88,
+            "Order": 90,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8037,7 +8121,7 @@
               }
             },
             "Enabled": true,
-            "Order": 89,
+            "Order": 91,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8151,7 +8235,7 @@
               }
             },
             "Enabled": true,
-            "Order": 90,
+            "Order": 92,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -8190,7 +8274,7 @@
               }
             },
             "Enabled": true,
-            "Order": 91,
+            "Order": 93,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8294,7 +8378,7 @@
               }
             },
             "Enabled": true,
-            "Order": 92,
+            "Order": 94,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8397,7 +8481,7 @@
               }
             },
             "Enabled": true,
-            "Order": 93,
+            "Order": 95,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8508,7 +8592,7 @@
               }
             },
             "Enabled": true,
-            "Order": 94,
+            "Order": 96,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8622,7 +8706,7 @@
               }
             },
             "Enabled": true,
-            "Order": 95,
+            "Order": 97,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -8661,7 +8745,7 @@
               }
             },
             "Enabled": true,
-            "Order": 96,
+            "Order": 98,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8765,7 +8849,7 @@
               }
             },
             "Enabled": true,
-            "Order": 97,
+            "Order": 99,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8868,7 +8952,7 @@
               }
             },
             "Enabled": true,
-            "Order": 98,
+            "Order": 100,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8982,7 +9066,7 @@
               }
             },
             "Enabled": true,
-            "Order": 99,
+            "Order": 101,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9094,7 +9178,7 @@
               }
             },
             "Enabled": true,
-            "Order": 100,
+            "Order": 102,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -9133,7 +9217,7 @@
               }
             },
             "Enabled": true,
-            "Order": 101,
+            "Order": 103,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9236,7 +9320,7 @@
               }
             },
             "Enabled": true,
-            "Order": 102,
+            "Order": 104,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9347,7 +9431,7 @@
               }
             },
             "Enabled": true,
-            "Order": 103,
+            "Order": 105,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9461,7 +9545,7 @@
               }
             },
             "Enabled": true,
-            "Order": 104,
+            "Order": 106,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -9500,7 +9584,7 @@
               }
             },
             "Enabled": true,
-            "Order": 105,
+            "Order": 107,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9539,7 +9623,7 @@
               }
             },
             "Enabled": true,
-            "Order": 106,
+            "Order": 108,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9650,7 +9734,7 @@
               }
             },
             "Enabled": true,
-            "Order": 107,
+            "Order": 109,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9689,7 +9773,7 @@
               }
             },
             "Enabled": true,
-            "Order": 108,
+            "Order": 110,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9815,7 +9899,7 @@
               }
             },
             "Enabled": true,
-            "Order": 109,
+            "Order": 111,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9928,7 +10012,7 @@
               }
             },
             "Enabled": true,
-            "Order": 110,
+            "Order": 112,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -9967,7 +10051,7 @@
               }
             },
             "Enabled": true,
-            "Order": 111,
+            "Order": 113,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10079,7 +10163,7 @@
               }
             },
             "Enabled": true,
-            "Order": 112,
+            "Order": 114,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10207,7 +10291,7 @@
               }
             },
             "Enabled": true,
-            "Order": 113,
+            "Order": 115,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10318,7 +10402,7 @@
               }
             },
             "Enabled": true,
-            "Order": 114,
+            "Order": 116,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10357,7 +10441,7 @@
               }
             },
             "Enabled": true,
-            "Order": 115,
+            "Order": 117,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10467,7 +10551,7 @@
               }
             },
             "Enabled": true,
-            "Order": 116,
+            "Order": 118,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10593,7 +10677,7 @@
               }
             },
             "Enabled": true,
-            "Order": 117,
+            "Order": 119,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10632,7 +10716,7 @@
               }
             },
             "Enabled": true,
-            "Order": 118,
+            "Order": 120,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10742,7 +10826,7 @@
               }
             },
             "Enabled": true,
-            "Order": 119,
+            "Order": 121,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10845,7 +10929,7 @@
               }
             },
             "Enabled": true,
-            "Order": 120,
+            "Order": 122,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
