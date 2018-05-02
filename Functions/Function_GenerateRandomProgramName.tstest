@@ -70,7 +70,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "VPS_Web.Function_GenerateRandomProgramName",
     "IsManual": false,
-    "ResourceFilePath": "Function_GenerateRandomProgramName.resx",
+    "ResourceFilePath": "Functions\\Function_GenerateRandomProgramName.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -102,7 +102,7 @@
     "Description": "",
     "Name": "Function_GenerateRandomProgramName",
     "Owner": "",
-    "Path": "Function_GenerateRandomProgramName.tstest",
+    "Path": "Functions\\Function_GenerateRandomProgramName.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "261fb9fa-41dd-4ea0-a411-8ededc8ba9bb",
