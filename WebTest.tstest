@@ -3072,7 +3072,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "83ff4c64-bcc3-4c99-b9b0-05347d09bfe0",
-            "Description": "Enter text 'Title' in 'ShowTitle_input' - DataDriven: [$($RandomProgramName)]",
+            "Description": "Enter text 'Title' in 'ShowTitle_input' - DataDriven: [$(RandomProgramName)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -3177,7 +3177,7 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {
-                  "Text": "$($RandomProgramName)"
+                  "Text": "$(RandomProgramName)"
                 },
                 "_canEncrypt": false,
                 "_cipher": null
@@ -3198,7 +3198,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "bd8c9faf-aa6a-44e5-8008-4d1e02619a4e",
-            "Description": "Wait for input 'ShowTitle_input' value 'Exact' 'A new show'.",
+            "Description": "Wait for input 'ShowTitle_input' value 'Exact' 'A new show'. - DataDriven: [$(RandomProgramName)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -3291,7 +3291,9 @@
                 "StepType": 1,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "ExpectedValue": "$(RandomProgramName)"
+                }
               }
             },
             "Enabled": true,
