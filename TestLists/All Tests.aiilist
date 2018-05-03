@@ -1,0 +1,87 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
+  "__value": {
+    "TestListId": "ddd0d852-cbe9-4c50-8145-2a7116eb1e69",
+    "Id": "ddd0d852-cbe9-4c50-8145-2a7116eb1e69",
+    "TestListName": "All Tests",
+    "CreationDate": "2018-05-03T09:20:02-07:00",
+    "OwnerName": null,
+    "Settings": {
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": false,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 1,
+            "EnableScriptLogging": false,
+            "BaseUrl": "https://portalqa1.vps.foxinc.com",
+            "KillBrowserProcessOnClose": false,
+            "AutoCalibrateBrowsers": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": false,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "ExecuteInDevelopmentTests": false,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 15000,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 0,
+        "UnexpectedDialogAction": 2,
+        "AnnotateExecution": false,
+        "AnnotationMode": 0,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false,
+        "RunnerResponseTimeout": 0.0
+      }
+    },
+    "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "28735820-d4dd-4fae-a058-5b4e010e8a8d",
+          "Path": "Tests\\POC_FBC_NewProgram_AddBasicInfo.tstest",
+          "PathType": 0
+        }
+      }
+    ],
+    "Filter": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
+      "__value": {
+        "Keys": [
+          "Name"
+        ],
+        "Comparisons": [
+          "ArtOfTest.WebAii.Design.Execution.FilterComparison||NotContains"
+        ],
+        "Values": [
+          "Function"
+        ]
+      }
+    },
+    "ListType": 0,
+    "ProjectId": "54b51bc1-8670-4fee-a8e4-e3073e49d0fc"
+  }
+}
