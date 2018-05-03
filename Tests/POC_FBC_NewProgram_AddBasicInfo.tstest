@@ -733,7 +733,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2c520837-7920-4f95-84a8-283a2707bdcd",
-            "Description": "Execute test 'Function_NavTo_ProgramSearch'",
+            "Description": "Execute test 'Function_NavTo_ProgramSearch1'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -741,8 +741,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Function_NavTo_ProgramSearch",
-                "TestPath": "Functions\\Function_NavTo_ProgramSearch.tstest",
+                "TestName": "Function_NavTo_ProgramSearch1",
+                "TestPath": "Functions\\Function_NavTo_ProgramSearch1.tstest",
                 "TestUniqueId": "cd92429c-997a-49dd-8d44-7cff181d1422",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
