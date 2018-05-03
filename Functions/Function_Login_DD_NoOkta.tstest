@@ -597,7 +597,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "23ec479d-e68b-4432-b0db-2c463aa6fcad",
-            "Description": "Wait for 'TextContent' 'Contains' 'Home | VPS Modules' on 'HomeVPSH3Tag'",
+            "Description": "Wait for 'TextContent' 'Contains' 'Home | VPS Modules' on 'LandingPage_confirm'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -649,7 +649,7 @@
                           "uniqueKey": "7VMdNHeNvwVAJSOyIePPz/Ufxc8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "HomeVPSH3Tag",
+                          "Name": "LandingPage_confirm",
                           "FindExpressions": [
                             {
                               "Key": 1,

@@ -495,7 +495,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "1172aa64-b248-4169-965d-dc3002a5f8de",
-            "Description": "Wait for 'TextContent' 'Contains' 'Program Edit' on 'ProgramEditSpan'",
+            "Description": "Wait for 'TextContent' 'Contains' 'Program Edit' on 'ProgramEdit_screenTitle'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -547,7 +547,7 @@
                           "uniqueKey": "S3WFs7gSJ+fMuLxOttvuc7U1WL8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ProgramEditSpan",
+                          "Name": "ProgramEdit_screenTitle",
                           "FindExpressions": [
                             {
                               "Key": 1,
