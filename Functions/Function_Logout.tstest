@@ -72,7 +72,7 @@
                           "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LogoutLink",
+                          "Name": "Logout_button",
                           "FindExpressions": [
                             {
                               "Key": 1,

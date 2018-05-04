@@ -95,7 +95,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -316,7 +316,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -430,7 +430,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,

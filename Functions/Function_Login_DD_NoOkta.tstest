@@ -160,9 +160,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/login",
+                          "Path": "",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "VPS Web Portal Login",
@@ -279,9 +279,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/login",
+                          "Path": "",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "VPS Web Portal Login",
@@ -403,9 +403,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/login",
+                          "Path": "",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "VPS Web Portal Login",
@@ -518,9 +518,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/login",
+                          "Path": "",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "VPS Web Portal Login",
