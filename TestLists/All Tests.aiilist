@@ -20,7 +20,7 @@
             "LocalWebServer": 0,
             "EnableUILessRequestViewing": false,
             "WebAppPhysicalPath": "",
-            "DefaultBrowser": 1,
+            "DefaultBrowser": 7,
             "EnableScriptLogging": false,
             "BaseUrl": "https://portalqa1.vps.foxinc.com",
             "KillBrowserProcessOnClose": false,

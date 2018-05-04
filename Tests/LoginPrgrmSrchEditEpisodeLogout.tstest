@@ -30,12 +30,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "548a2a33-cb17-4617-ab23-4d6054c61c10",
-            "Description": "Comment: ",
+            "Description": "SCRIPT TO EDIT A PROGRAM FROM PROGRAM SEARCH. IN THIS CASE THE SIMPSONS",
             "CustomDescription": "SCRIPT TO EDIT A PROGRAM FROM PROGRAM SEARCH. IN THIS CASE THE SIMPSONS",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
               "__value": {
-                "Comment": null,
+                "Comment": "",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -963,7 +963,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f165d9a5-dfe9-4ff0-ac50-c4833fc8a13f",
+            "Runtime ID": "97b0a503-5bd9-4728-ac7b-c3b7f007b396",
             "Description": "Verify ExistsNot 'FOXButtonTag'",
             "CustomDescription": null,
             "Step": {
@@ -1675,7 +1675,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7e382eba-7f06-4cd6-a8c8-2848198d09bd",
+            "Runtime ID": "404e8ed1-4257-4ed2-964f-3fb58c9880fa",
             "Description": "Verify ExistsNot 'ActiveButtonTag'",
             "CustomDescription": null,
             "Step": {
@@ -4075,7 +4075,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d275d61b-f175-424f-8421-8710ba3617c3",
-            "Description": "Wait for 'TextContent' 'Contains' 'SIMPSONS, THE' on 'SIMPSONSTHEH3Tag' - DataDriven: [$(PrgrmSrch)]",
+            "Description": "Wait for 'TextContent' 'Contains' 'SIMPSONS, THE' on 'SIMPSONSTHEH3Tag'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -4116,7 +4116,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -4232,7 +4232,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -4640,7 +4640,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a06bb857-c91d-4dcc-ad52-bb97cceaa1dc",
-            "Description": "Verify input 'ShowTitleText' value 'Contains' 'SIMPSONS, THE'. - DataDriven: [$(PrgrmSrch)]",
+            "Description": "Verify input 'ShowTitleText' value 'Contains' 'SIMPSONS, THE'.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -4680,7 +4680,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -8339,7 +8339,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -8448,7 +8448,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -8640,7 +8640,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -9904,7 +9904,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b8a20bd6-6f39-4a36-be37-d8047185fd15",
-            "Description": "Wait for 'TextContent' 'Contains' 'SIMPSONS, THE' on 'SIMPSONSTHEH3Tag' - DataDriven: [$(PrgrmSrch)]",
+            "Description": "Wait for 'TextContent' 'Contains' 'SIMPSONS, THE' on 'SIMPSONSTHEH3Tag'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -9945,7 +9945,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -10061,7 +10061,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
@@ -10508,7 +10508,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e5efd1f5-54b1-4a21-babf-294c169024df",
-            "Description": "Verify input 'ShowTitleText' value 'Contains' 'SIMPSONS, THE'. - DataDriven: [$(PrgrmSrch)]",
+            "Description": "Verify input 'ShowTitleText' value 'Contains' 'SIMPSONS, THE'.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
@@ -10548,7 +10548,7 @@
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit0"
+                          "FriendlyName": "ProgramGeneralInfoEdit"
                         }
                       },
                       "Frame": null,
