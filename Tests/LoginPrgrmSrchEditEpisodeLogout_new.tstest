@@ -13,12 +13,15 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2018.1.209.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2017.2.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
+      "System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -185,7 +188,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "aa81303e-4baf-4897-b1ec-ab5951f69a2e",
-            "Description": "Execute test 'Function_PrgrmSrch'",
+            "Description": "Execute test 'Function_PrgrmSrchBtn'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -193,8 +196,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Function_PrgrmSrch",
-                "TestPath": "Functions\\Function_PrgrmSrch.tstest",
+                "TestName": "Function_PrgrmSrchBtn",
+                "TestPath": "Functions\\Function_PrgrmSrchBtn.tstest",
                 "TestUniqueId": "8f505222-193f-46f8-b10c-5f6d7317451c",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -227,7 +230,7 @@
           "__value": {
             "Runtime ID": "41b58ba8-fac1-4e52-a760-e006454b57e0",
             "Description": "Comment: ",
-            "CustomDescription": "SET TABS DISPLAY TO TOP VERSUS SIDE",
+            "CustomDescription": "SET TABS DISPLAY TO SIDE VERSUS TOP",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
               "__value": {
@@ -264,22 +267,19 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "365087dd-fbda-410d-928d-0a2d54fc071f",
-            "Description": "Wait for element 'TabsDisplayTop' 'is' visible.",
+            "Runtime ID": "e6e142c5-e6a2-443d-b330-c12eb061bfef",
+            "Description": "Execute test 'Function_PrgrmSrchTabs_Side'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "IsVisible": true,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElements": false,
+                "TestName": "Function_PrgrmSrchTabs_Side",
+                "TestPath": "Functions\\Function_PrgrmSrchTabs_Side.tstest",
+                "TestUniqueId": "60041f42-04f4-432c-9793-398c4eb72211",
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -287,68 +287,8 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {
-                  "verifyTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "verifyTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Program Search",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramSearch"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "6xArQLQBS1bQ/VvQuxiBGpIQTBw=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "TabsDisplayTop",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=div:18"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[1]/div[1]/div[2]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
+                "Elements": {},
+                "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -359,7 +299,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutuyqw3bl4.i13",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newcp2m2dyw.4zg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -368,26 +308,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3c4d7608-b523-4786-87d1-28db01ce8ba9",
-            "Description": "Desktop command: LeftClick on TabsDisplayTop",
-            "CustomDescription": null,
+            "Runtime ID": "4235d894-ee42-4565-9a9a-cd0e25a4901c",
+            "Description": "Comment: ",
+            "CustomDescription": "SET TABS DISPLAY TO TOP VERSUS SIDE",
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
               "__value": {
-                "Focus": true,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
+                "Comment": null,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElements": false,
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -395,67 +326,7 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Program Search",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramSearch"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "6xArQLQBS1bQ/VvQuxiBGpIQTBw=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "TabsDisplayTop",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=div:18"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[1]/div[1]/div[2]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
+                "Elements": {},
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -467,7 +338,48 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogouthgvde5lb.oo0",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newnwdzykul.o3a",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ca4908fb-cdbf-4302-88ef-ae12c482a795",
+            "Description": "Execute test 'Function_PrgrmSrchTabs_Top'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Function_PrgrmSrchTabs_Top",
+                "TestPath": "Functions\\Function_PrgrmSrchTabs_Top.tstest",
+                "TestUniqueId": "0c6c5786-54bd-440c-99f0-74a04b712800",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newerymditl.giu",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -502,7 +414,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -612,7 +524,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -726,7 +638,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -835,7 +747,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -947,7 +859,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -960,7 +872,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3df62b32-f2b4-4c17-b659-059cc79df475",
+            "Runtime ID": "539d6716-c650-495b-93e1-ff6dc6945bf5",
             "Description": "Verify ExistsNot 'FOXButtonTag'",
             "CustomDescription": null,
             "Step": {
@@ -1397,7 +1309,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1436,7 +1348,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1550,7 +1462,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1659,7 +1571,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1672,7 +1584,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "229e4087-6998-46b8-b255-6b7e9c1e00b4",
+            "Runtime ID": "21c7ccd9-0e29-4a8a-9e43-21f1d24018c5",
             "Description": "Verify ExistsNot 'ActiveButtonTag'",
             "CustomDescription": null,
             "Step": {
@@ -2221,7 +2133,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2335,7 +2247,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2374,7 +2286,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2387,18 +2299,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f28474a3-6320-4954-b589-8267cd4e42ef",
-            "Description": "Desktop command: HoverOver on ShowTitleCtrlText",
+            "Runtime ID": "ed34441d-24e7-4528-a2b5-9cfe6378323f",
+            "Description": "Scroll ShowTitleCtrlText to top of window.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
               "__value": {
-                "Focus": false,
-                "DesktopActionType": 11,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -2488,11 +2396,11 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogout110wgjt4.v2g",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_new45pr2z2l.5da",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -2602,7 +2510,7 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2728,7 +2636,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2767,7 +2675,7 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2879,7 +2787,7 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2993,7 +2901,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3103,7 +3011,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3215,7 +3123,7 @@
               }
             },
             "Enabled": true,
-            "Order": 28,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3254,11 +3162,121 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutb3s2nnr3.bwi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c61672f9-9503-43a2-b960-6d829e0ff872",
+            "Description": "Scroll ProductionNumberText to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program Search",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramSearch"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cEfDTyx7aLJFyY9Ht5/Y5HIbpFE=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ProductionNumberText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=productionNumber"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 31,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newe5lgg3co.ez1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3380,7 +3398,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3419,7 +3437,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3533,7 +3551,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3647,7 +3665,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 35,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3686,7 +3704,7 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 36,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3725,7 +3743,7 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 37,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3835,11 +3853,121 @@
               }
             },
             "Enabled": true,
-            "Order": 36,
+            "Order": 38,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutav5tznmh.15u",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f7592bc6-dfe2-4b0d-b6ab-f29befc98288",
+            "Description": "Scroll EditPrgrmButton2 to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program Search",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramSearch"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "pxK1p46776dvvixT0rVVhqc2OEA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "EditPrgrmButton2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=ui-button-icon-left ui-clickable fa fa-fw fa-edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/program-results[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/span[1]/button[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 39,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_new5wjqh0iz.b4e",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3949,7 +4077,7 @@
               }
             },
             "Enabled": true,
-            "Order": 37,
+            "Order": 40,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4058,7 +4186,7 @@
               }
             },
             "Enabled": true,
-            "Order": 38,
+            "Order": 41,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4174,7 +4302,7 @@
               }
             },
             "Enabled": true,
-            "Order": 39,
+            "Order": 42,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4286,7 +4414,7 @@
               }
             },
             "Enabled": true,
-            "Order": 40,
+            "Order": 43,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4395,7 +4523,7 @@
               }
             },
             "Enabled": true,
-            "Order": 41,
+            "Order": 44,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4409,6 +4537,257 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e36c4ec6-0609-42d9-aa72-eec196730f80",
+            "Description": "Comment: ",
+            "CustomDescription": "SET TABS TO SIDE VERSUS TOP",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
+              "__value": {
+                "Comment": null,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 45,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutvwbkxcot.0kq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "764eafaf-adfc-4d07-a4ff-c4563a0d4367",
+            "Description": "Wait for element 'TabsDisplaySidePE' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/program/edit/27382/general-info",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program General Info Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramGeneralInfoEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "tWurWz5VR5nDMCHkDa/0DQhQ+fo=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySidePE",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=span:10"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 46,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newhs1w0s54.kwq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "215465c6-5a9e-4aad-8e80-b81f3cb5fb0a",
+            "Description": "Desktop command: LeftClick on TabsDisplaySidePE",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/program/edit/27382/general-info",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program General Info Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramGeneralInfoEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "tWurWz5VR5nDMCHkDa/0DQhQ+fo=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySidePE",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=span:10"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 47,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newaxmjj3ue.5t1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5c962e0e-227c-4124-b35c-8abfbfbbc8b2",
             "Description": "Comment: ",
             "CustomDescription": "SET TAB TO GENERAL INFO",
             "Step": {
@@ -4434,11 +4813,11 @@
               }
             },
             "Enabled": true,
-            "Order": 42,
+            "Order": 48,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutvwbkxcot.0kq",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newpnnbc0mz.oyc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -4475,7 +4854,7 @@
               }
             },
             "Enabled": true,
-            "Order": 43,
+            "Order": 49,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4584,7 +4963,7 @@
               }
             },
             "Enabled": true,
-            "Order": 44,
+            "Order": 50,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4623,7 +5002,7 @@
               }
             },
             "Enabled": true,
-            "Order": 45,
+            "Order": 51,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4736,7 +5115,7 @@
               }
             },
             "Enabled": true,
-            "Order": 46,
+            "Order": 52,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4775,7 +5154,7 @@
               }
             },
             "Enabled": true,
-            "Order": 47,
+            "Order": 53,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4816,7 +5195,7 @@
               }
             },
             "Enabled": true,
-            "Order": 48,
+            "Order": 54,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4925,7 +5304,7 @@
               }
             },
             "Enabled": true,
-            "Order": 49,
+            "Order": 55,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4964,7 +5343,7 @@
               }
             },
             "Enabled": true,
-            "Order": 50,
+            "Order": 56,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5003,7 +5382,7 @@
               }
             },
             "Enabled": true,
-            "Order": 51,
+            "Order": 57,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5115,7 +5494,7 @@
               }
             },
             "Enabled": true,
-            "Order": 52,
+            "Order": 58,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5231,7 +5610,7 @@
               }
             },
             "Enabled": true,
-            "Order": 53,
+            "Order": 59,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5347,7 +5726,7 @@
               }
             },
             "Enabled": true,
-            "Order": 54,
+            "Order": 60,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5456,7 +5835,7 @@
               }
             },
             "Enabled": true,
-            "Order": 55,
+            "Order": 61,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5495,7 +5874,7 @@
               }
             },
             "Enabled": true,
-            "Order": 56,
+            "Order": 62,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5609,7 +5988,7 @@
               }
             },
             "Enabled": true,
-            "Order": 57,
+            "Order": 63,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5725,7 +6104,7 @@
               }
             },
             "Enabled": true,
-            "Order": 58,
+            "Order": 64,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5764,7 +6143,7 @@
               }
             },
             "Enabled": true,
-            "Order": 59,
+            "Order": 65,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5882,11 +6261,129 @@
               }
             },
             "Enabled": true,
-            "Order": 60,
+            "Order": 66,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutck4e3qaq.nlx",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "66694049-c70f-475a-a124-b53cee767cf5",
+            "Description": "Scroll ButtonTag to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/program/edit/27382/production",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program Production Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramProductionEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Qr5PnTY3kHNeG2SQTMuua1+I00k=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ButtonTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=ui-tabview-panel ui-widget-content ng-star-inserted"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "role=tabpanel"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=button:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-edit[1]/div[1]/div[1]/vps-program-production[1]/div[1]/div[2]/production-cycles-panel[1]/div[1]/div[2]/tabs-production-cycles[1]/p-tabview[1]/div[1]/div[1]/p-tabpanel[1]/div[1]/episodes-production-cycles[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/button[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 67,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_new2ht01ygw.ybu",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -6004,7 +6501,7 @@
               }
             },
             "Enabled": true,
-            "Order": 61,
+            "Order": 68,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6113,7 +6610,7 @@
               }
             },
             "Enabled": true,
-            "Order": 62,
+            "Order": 69,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6127,6 +6624,257 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a14ee33f-5edf-4fab-a524-ccd00570176a",
+            "Description": "Comment: ",
+            "CustomDescription": "DISPLAY TABS ON SIDE",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
+              "__value": {
+                "Comment": null,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 70,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutgjlwd1we.q2c",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "101583ea-5d52-4e32-9959-5ef1d3ef1133",
+            "Description": "Wait for element 'TabsDisplaySide2' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VenAEPcuyUEUhXtlMh18CeR/Kts=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySide2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=div:21"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 71,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newsqmktqf0.txx",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "988400ab-7364-468a-a4e8-61df66521de0",
+            "Description": "Desktop command: LeftClick on TabsDisplaySide2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VenAEPcuyUEUhXtlMh18CeR/Kts=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySide2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=div:21"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 72,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newpwvpcr5k.h4y",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "52f9e622-5706-44b3-82fa-a05222c236a6",
             "Description": "Comment: ",
             "CustomDescription": "DISPLAY TABS ON TOP",
             "Step": {
@@ -6151,12 +6899,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 63,
+            "Enabled": false,
+            "Order": 73,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutgjlwd1we.q2c",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newgvdkqxgv.wuw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -6255,8 +7003,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 64,
+            "Enabled": false,
+            "Order": 74,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6363,8 +7111,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 65,
+            "Enabled": false,
+            "Order": 75,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6403,7 +7151,7 @@
               }
             },
             "Enabled": true,
-            "Order": 66,
+            "Order": 76,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6513,7 +7261,7 @@
               }
             },
             "Enabled": true,
-            "Order": 67,
+            "Order": 77,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6627,7 +7375,7 @@
               }
             },
             "Enabled": true,
-            "Order": 68,
+            "Order": 78,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6736,7 +7484,7 @@
               }
             },
             "Enabled": true,
-            "Order": 69,
+            "Order": 79,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6848,7 +7596,7 @@
               }
             },
             "Enabled": true,
-            "Order": 70,
+            "Order": 80,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -6964,7 +7712,7 @@
               }
             },
             "Enabled": true,
-            "Order": 71,
+            "Order": 81,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7003,7 +7751,7 @@
               }
             },
             "Enabled": true,
-            "Order": 72,
+            "Order": 82,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7042,119 +7790,11 @@
               }
             },
             "Enabled": true,
-            "Order": 73,
+            "Order": 83,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutuitad4pq.e54",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "916fd90d-447c-44c0-921f-24c3882be409",
-            "Description": "Desktop command: LeftClick on ITag",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
-              "__value": {
-                "Focus": true,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
-                },
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/episode/edit/1428911/basic",
-                          "Query": "",
-                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Episode Basic Edit",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "EpisodeBasicEdit"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "Phjda5gCv1vPadFiceoYUcmp5bA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "ITag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=i:8"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-drawer[1]/div[1]/i[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 74,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogouthj4zdod1.zf5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -7254,7 +7894,7 @@
               }
             },
             "Enabled": true,
-            "Order": 75,
+            "Order": 84,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7366,7 +8006,7 @@
               }
             },
             "Enabled": true,
-            "Order": 76,
+            "Order": 85,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7482,11 +8122,121 @@
               }
             },
             "Enabled": true,
-            "Order": 77,
+            "Order": 86,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout1jcmxvch.wzl",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5ffd0943-a83d-4f50-9184-dcc7bb506b15",
+            "Description": "Scroll AUDIOSpan to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "0F2XmCHdXL6E0VNQ3+l7cNp2L58=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "AUDIOSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^AUDIO DESCRIPTI"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-episode-basic[1]/div[1]/div[1]/div[1]/vps-row-node[9]/p-dropdown[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 87,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newomsbkqln.ncx",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -7592,7 +8342,7 @@
               }
             },
             "Enabled": true,
-            "Order": 78,
+            "Order": 88,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7706,7 +8456,7 @@
               }
             },
             "Enabled": true,
-            "Order": 79,
+            "Order": 89,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7745,11 +8495,121 @@
               }
             },
             "Enabled": true,
-            "Order": 80,
+            "Order": 90,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutkg3d5i5m.lsd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "fc2f11c1-7b24-46ed-831c-6bc474f37b2b",
+            "Description": "Scroll BroadcastSequenceNumber to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "o3g8t+H2rZGmHZhAoLlBc+zfISg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BroadcastSequenceNumber",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "name=broadcastSequence"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-episode-basic[1]/div[1]/div[1]/div[1]/vps-row-node[10]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputNumber",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 91,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newkkj5n2yi.deh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -7859,7 +8719,7 @@
               }
             },
             "Enabled": true,
-            "Order": 81,
+            "Order": 92,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -7983,7 +8843,7 @@
               }
             },
             "Enabled": true,
-            "Order": 82,
+            "Order": 93,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8022,7 +8882,7 @@
               }
             },
             "Enabled": true,
-            "Order": 83,
+            "Order": 94,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8136,7 +8996,7 @@
               }
             },
             "Enabled": true,
-            "Order": 84,
+            "Order": 95,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8175,7 +9035,7 @@
               }
             },
             "Enabled": true,
-            "Order": 85,
+            "Order": 96,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8284,7 +9144,7 @@
               }
             },
             "Enabled": true,
-            "Order": 86,
+            "Order": 97,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8393,7 +9253,7 @@
               }
             },
             "Enabled": true,
-            "Order": 87,
+            "Order": 98,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8502,7 +9362,7 @@
               }
             },
             "Enabled": true,
-            "Order": 88,
+            "Order": 99,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8541,7 +9401,7 @@
               }
             },
             "Enabled": true,
-            "Order": 89,
+            "Order": 100,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8580,7 +9440,7 @@
               }
             },
             "Enabled": true,
-            "Order": 90,
+            "Order": 101,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8694,7 +9554,7 @@
               }
             },
             "Enabled": true,
-            "Order": 91,
+            "Order": 102,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8803,7 +9663,7 @@
               }
             },
             "Enabled": true,
-            "Order": 92,
+            "Order": 103,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8912,7 +9772,7 @@
               }
             },
             "Enabled": true,
-            "Order": 93,
+            "Order": 104,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8951,7 +9811,7 @@
               }
             },
             "Enabled": true,
-            "Order": 94,
+            "Order": 105,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -8990,7 +9850,7 @@
               }
             },
             "Enabled": true,
-            "Order": 95,
+            "Order": 106,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9100,7 +9960,7 @@
               }
             },
             "Enabled": true,
-            "Order": 96,
+            "Order": 107,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9214,7 +10074,7 @@
               }
             },
             "Enabled": true,
-            "Order": 97,
+            "Order": 108,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9328,7 +10188,7 @@
               }
             },
             "Enabled": true,
-            "Order": 98,
+            "Order": 109,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9437,7 +10297,7 @@
               }
             },
             "Enabled": true,
-            "Order": 99,
+            "Order": 110,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9476,7 +10336,7 @@
               }
             },
             "Enabled": true,
-            "Order": 100,
+            "Order": 111,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9515,7 +10375,7 @@
               }
             },
             "Enabled": true,
-            "Order": 101,
+            "Order": 112,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9554,7 +10414,7 @@
               }
             },
             "Enabled": true,
-            "Order": 102,
+            "Order": 113,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9664,11 +10524,121 @@
               }
             },
             "Enabled": true,
-            "Order": 103,
+            "Order": 114,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "LoginPrgrmSrchEditEpisodeLogoutwn0cmnhu.b5z",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8683c008-b8d0-4ae1-bcba-3336597aa299",
+            "Description": "Scroll EditPrgrmButton2 to top of window.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.FocusActionDescriptor",
+              "__value": {
+                "ScrollVisibleType": 0,
+                "ScrollTypeSet": true,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Program Search",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ProgramSearch"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "pxK1p46776dvvixT0rVVhqc2OEA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "EditPrgrmButton2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=ui-button-icon-left ui-clickable fa fa-fw fa-edit"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/program-results[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/span[1]/button[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 115,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newhm5uukto.nya",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -9778,7 +10748,7 @@
               }
             },
             "Enabled": true,
-            "Order": 104,
+            "Order": 116,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9887,7 +10857,7 @@
               }
             },
             "Enabled": true,
-            "Order": 105,
+            "Order": 117,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10003,7 +10973,7 @@
               }
             },
             "Enabled": true,
-            "Order": 106,
+            "Order": 118,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10115,7 +11085,7 @@
               }
             },
             "Enabled": true,
-            "Order": 107,
+            "Order": 119,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10224,7 +11194,7 @@
               }
             },
             "Enabled": true,
-            "Order": 108,
+            "Order": 120,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10263,7 +11233,7 @@
               }
             },
             "Enabled": true,
-            "Order": 109,
+            "Order": 121,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10304,7 +11274,7 @@
               }
             },
             "Enabled": true,
-            "Order": 110,
+            "Order": 122,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10413,7 +11383,7 @@
               }
             },
             "Enabled": true,
-            "Order": 111,
+            "Order": 123,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10452,7 +11422,7 @@
               }
             },
             "Enabled": true,
-            "Order": 112,
+            "Order": 124,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10491,7 +11461,7 @@
               }
             },
             "Enabled": true,
-            "Order": 113,
+            "Order": 125,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10604,7 +11574,7 @@
               }
             },
             "Enabled": true,
-            "Order": 114,
+            "Order": 126,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10643,7 +11613,7 @@
               }
             },
             "Enabled": true,
-            "Order": 115,
+            "Order": 127,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10684,7 +11654,7 @@
               }
             },
             "Enabled": true,
-            "Order": 116,
+            "Order": 128,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10793,7 +11763,7 @@
               }
             },
             "Enabled": true,
-            "Order": 117,
+            "Order": 129,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10832,7 +11802,7 @@
               }
             },
             "Enabled": true,
-            "Order": 118,
+            "Order": 130,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10871,7 +11841,7 @@
               }
             },
             "Enabled": true,
-            "Order": 119,
+            "Order": 131,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10983,7 +11953,7 @@
               }
             },
             "Enabled": true,
-            "Order": 120,
+            "Order": 132,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11099,7 +12069,7 @@
               }
             },
             "Enabled": true,
-            "Order": 121,
+            "Order": 133,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11215,7 +12185,7 @@
               }
             },
             "Enabled": true,
-            "Order": 122,
+            "Order": 134,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11324,7 +12294,7 @@
               }
             },
             "Enabled": true,
-            "Order": 123,
+            "Order": 135,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11363,7 +12333,7 @@
               }
             },
             "Enabled": true,
-            "Order": 124,
+            "Order": 136,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11477,7 +12447,7 @@
               }
             },
             "Enabled": true,
-            "Order": 125,
+            "Order": 137,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11593,7 +12563,7 @@
               }
             },
             "Enabled": true,
-            "Order": 126,
+            "Order": 138,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11632,7 +12602,7 @@
               }
             },
             "Enabled": true,
-            "Order": 127,
+            "Order": 139,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11750,7 +12720,7 @@
               }
             },
             "Enabled": true,
-            "Order": 128,
+            "Order": 140,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11872,7 +12842,7 @@
               }
             },
             "Enabled": true,
-            "Order": 129,
+            "Order": 141,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11981,7 +12951,7 @@
               }
             },
             "Enabled": true,
-            "Order": 130,
+            "Order": 142,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -11995,6 +12965,261 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "8446e032-9c3a-4d1f-9a78-9ec1174e9273",
+            "Description": "Comment: ",
+            "CustomDescription": "DISPLAY TABS ON SIDE",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
+              "__value": {
+                "Comment": null,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 143,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout3df0j5lq.zxa",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c9a425d2-0fab-461b-b34e-d21df3f4394d",
+            "Description": "Desktop command: HoverOver on TabsDisplaySide2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 11,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VenAEPcuyUEUhXtlMh18CeR/Kts=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySide2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=div:21"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 144,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newkqxg5v4m.d4c",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "fb9a1391-d3bb-4e3a-8f45-19710cc3d295",
+            "Description": "Desktop command: LeftClick on TabsDisplaySide2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VenAEPcuyUEUhXtlMh18CeR/Kts=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TabsDisplaySide2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=div:21"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-episode[1]/vps-episode-edit[1]/div[1]/div[1]/vps-navigator[1]/div[1]/div[1]/p-radiobutton[2]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 145,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newzcrma1pd.ume",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "2d53b0ee-bfc4-45ec-8590-208f96fcecc3",
             "Description": "Comment: ",
             "CustomDescription": "DISPLAY TABS ON TOP",
             "Step": {
@@ -12019,12 +13244,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 131,
+            "Enabled": false,
+            "Order": 146,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout3df0j5lq.zxa",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_new1muntww1.ija",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -12123,8 +13348,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 132,
+            "Enabled": false,
+            "Order": 147,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12231,8 +13456,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 133,
+            "Enabled": false,
+            "Order": 148,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12271,7 +13496,7 @@
               }
             },
             "Enabled": true,
-            "Order": 134,
+            "Order": 149,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12381,7 +13606,7 @@
               }
             },
             "Enabled": true,
-            "Order": 135,
+            "Order": 150,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12495,7 +13720,7 @@
               }
             },
             "Enabled": true,
-            "Order": 136,
+            "Order": 151,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12604,7 +13829,7 @@
               }
             },
             "Enabled": true,
-            "Order": 137,
+            "Order": 152,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12716,7 +13941,7 @@
               }
             },
             "Enabled": true,
-            "Order": 138,
+            "Order": 153,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12832,7 +14057,7 @@
               }
             },
             "Enabled": true,
-            "Order": 139,
+            "Order": 154,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12871,7 +14096,7 @@
               }
             },
             "Enabled": true,
-            "Order": 140,
+            "Order": 155,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -12985,7 +14210,7 @@
               }
             },
             "Enabled": true,
-            "Order": 141,
+            "Order": 156,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -13024,7 +14249,7 @@
               }
             },
             "Enabled": true,
-            "Order": 142,
+            "Order": 157,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -13137,7 +14362,7 @@
               }
             },
             "Enabled": true,
-            "Order": 143,
+            "Order": 158,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -13151,6 +14376,261 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c6543626-6d78-49f4-9ea6-c65ec4e3a130",
+            "Description": "Comment: ",
+            "CustomDescription": "LET'S GO BACK HOME",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
+              "__value": {
+                "Comment": null,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 159,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutdk2x1uth.pou",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6ccddeb3-1d0d-4968-ac2c-11ad417125e1",
+            "Description": "Desktop command: HoverOver on HomeLink",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": false,
+                "DesktopActionType": 11,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "eM2FxvS5UPMfxluIrcm0y2WoRjw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "HomeLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=a:2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/p-breadcrumb[1]/div[1]/ul[1]/li[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 160,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newnjiilefz.kvy",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "876573d0-583c-4bcb-899d-caa9f84e52c5",
+            "Description": "Desktop command: LeftClick on HomeLink",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/episode/edit/1428911/basic",
+                          "Query": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Episode Basic Edit",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "EpisodeBasicEdit"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "eM2FxvS5UPMfxluIrcm0y2WoRjw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "HomeLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=a:2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/p-breadcrumb[1]/div[1]/ul[1]/li[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 161,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newuwf250rc.cnc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "9d6df3c1-305b-40e5-b642-eedec8ec584a",
             "Description": "Comment: ",
             "CustomDescription": "LOGOUT",
             "Step": {
@@ -13176,11 +14656,11 @@
               }
             },
             "Enabled": true,
-            "Order": 144,
+            "Order": 162,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginPrgrmSrchEditPrgrmLogoutdk2x1uth.pou",
+            "StepImageKey": "LoginPrgrmSrchEditEpisodeLogout_newivlekhoh.ebd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -13217,7 +14697,7 @@
               }
             },
             "Enabled": true,
-            "Order": 145,
+            "Order": 163,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -13256,7 +14736,7 @@
               }
             },
             "Enabled": true,
-            "Order": 146,
+            "Order": 164,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -13318,6 +14798,396 @@
                 }
               ],
               "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/program-results[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/button[1]/span[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program General Info Edit",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramGeneralInfoEdit0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "C1IlgW8U3VDn5j4/u06azp+5K+E=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ShowCode_input",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=code"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/search",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program Search",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramSearch"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "ykmMbwfY4phXkYqgpwYM81HmohA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ShowTitleCtrlText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=showTitleCtrl"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/vps-program-search-criteria-container[1]/vps-criteria-programs[1]/form[1]/vps-column-node[5]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/search",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program Search",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramSearch"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "ykmMbwfY4phXkYqgpwYM81HmohA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ShowTitleCtrlText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=showTitleCtrl"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/vps-program-search-criteria-container[1]/vps-criteria-programs[1]/form[1]/vps-column-node[5]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/search",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program Search",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramSearch"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "ykmMbwfY4phXkYqgpwYM81HmohA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "ShowTitleCtrlText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=showTitleCtrl"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/vps-program-search-criteria-container[1]/vps-criteria-programs[1]/form[1]/vps-column-node[5]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/search",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program Search",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramSearch"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "pxK1p46776dvvixT0rVVhqc2OEA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EditPrgrmButton2",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TagName=span"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ui-button-icon-left ui-clickable fa fa-fw fa-edit"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/program-results[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/span[1]/button[1]/span[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "target",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://portalqa1.vps.foxinc.com/program/search",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Program Search",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "ProgramSearch"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "pxK1p46776dvvixT0rVVhqc2OEA=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EditPrgrmButton2",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TagName=span"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=ui-button-icon-left ui-clickable fa fa-fw fa-edit"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/vps-app[1]/vps-program[1]/vps-program-search[1]/div[1]/div[1]/div[1]/program-results[1]/p-datatable[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/span[1]/button[1]/span[1]",
               "DataBindingExpressions": {}
             }
           },
