@@ -509,21 +509,19 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1534bfae-e015-46b2-8b56-6851ecc237e3",
-            "Description": "Click 'LogoutLink'",
+            "Runtime ID": "32f31ecf-3117-43ca-87ed-52b76a5e65f9",
+            "Description": "Execute test 'Function_Logout'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElements": false,
+                "TestName": "Function_Logout",
+                "TestPath": "Functions\\Function_Logout.tstest",
+                "TestUniqueId": "cc263524-1e7c-4bd3-b2d9-7fc52cb78ef4",
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -531,73 +529,7 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Program General Info Edit",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "LogoutLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Logout"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
+                "Elements": {},
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -609,225 +541,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "POC_FBC_NewProgram_AddBasicInfoa5g042pw.nb2",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ccf17a71-cd7a-4406-a647-67bcdd012338",
-            "Description": "Wait for ExistsNot 'Loading_Progress_Message'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
-              "__value": {
-                "ExistsNot": true,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Program General Info Edit",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "hlHxVAnpxznSRFh0qr9TqMtKWnM=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Loading_Progress_Message",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=h1"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Loading..."
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 14,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "POC_FBC_NewProgram_AddBasicInfopcvnfexd.gbv",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "c511186f-46ac-4ff9-ac35-701e714d0371",
-            "Description": "Click 'LogoutLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/program/edit/117095/general-info",
-                          "Query": "",
-                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Program General Info Edit",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "LogoutLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Logout"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 15,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "POC_FBC_NewProgram_AddBasicInfo5i5hmqdh.n30",
+            "StepImageKey": "POC_FBC_NewProgram_AddBasicInfoj4u5r3vk.vth",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -852,7 +566,7 @@
               "Title": "Program General Info Edit",
               "CompareMode": 2,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "ProgramGeneralInfoEdit"
+              "FriendlyName": "ProgramGeneralInfoEdit0"
             }
           },
           "Frame": null,
@@ -919,7 +633,7 @@
               "Title": "Program General Info Edit",
               "CompareMode": 2,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "ProgramGeneralInfoEdit"
+              "FriendlyName": "ProgramGeneralInfoEdit0"
             }
           },
           "Frame": null,
@@ -978,7 +692,7 @@
               "Title": "Program General Info Edit",
               "CompareMode": 2,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "ProgramGeneralInfoEdit"
+              "FriendlyName": "ProgramGeneralInfoEdit0"
             }
           },
           "Frame": null,
