@@ -88,7 +88,7 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/home",
+                          "Path": "https://portalqa1.vps.foxinc.com/home",
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
@@ -193,7 +193,7 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://portalqa2.vps.foxinc.com/home",
+                          "Path": "https://portalqa1.vps.foxinc.com/home",
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
@@ -307,7 +307,7 @@
                           "Title": "Home",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home0"
+                          "FriendlyName": "Home"
                         }
                       },
                       "Frame": null,
@@ -419,7 +419,7 @@
                           "Title": "Home",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home0"
+                          "FriendlyName": "Home"
                         }
                       },
                       "Frame": null,
@@ -533,7 +533,7 @@
                           "Title": "Home",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home0"
+                          "FriendlyName": "Home"
                         }
                       },
                       "Frame": null,
@@ -683,7 +683,7 @@
                           "Title": "Home",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home0"
+                          "FriendlyName": "Home"
                         }
                       },
                       "Frame": null,
@@ -786,7 +786,7 @@
                           "Title": "Home",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Home0"
+                          "FriendlyName": "Home"
                         }
                       },
                       "Frame": null,

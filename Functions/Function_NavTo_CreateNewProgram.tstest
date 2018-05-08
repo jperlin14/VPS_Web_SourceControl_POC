@@ -418,13 +418,13 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit"
+                          "FriendlyName": "ProgramGeneralInfoEdit0"
                         }
                       },
                       "Frame": null,
@@ -530,13 +530,13 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit"
+                          "FriendlyName": "ProgramGeneralInfoEdit0"
                         }
                       },
                       "Frame": null,

@@ -89,7 +89,7 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
@@ -199,7 +199,7 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
@@ -308,7 +308,7 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
@@ -417,7 +417,7 @@
                         "__value": {
                           "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
                           "Query": "",
-                          "BaseUrl": "",
+                          "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Program General Info Edit",
@@ -524,15 +524,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/program/edit/117095/general-info",
+                          "Path": "https://portalqa1.vps.foxinc.com/program/search",
                           "Query": "",
                           "BaseUrl": "https://portalqa1.vps.foxinc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Program General Info Edit",
-                          "CompareMode": 2,
+                          "Title": "~Program Search",
+                          "CompareMode": 0,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ProgramGeneralInfoEdit1"
+                          "FriendlyName": "ProgramSearch0"
                         }
                       },
                       "Frame": null,
@@ -543,7 +543,7 @@
                           "uniqueKey": "+JLHggq8k8nRgdnW8d8cz62maHU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LogoutLink",
+                          "Name": "Logout_Link",
                           "FindExpressions": [
                             {
                               "Key": 1,
