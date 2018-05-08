@@ -560,7 +560,7 @@
             "__value": {
               "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
               "Query": "",
-              "BaseUrl": "",
+              "BaseUrl": "https://portalqa1.vps.foxinc.com",
               "EquivalentUrls": [],
               "Fragment": "",
               "Title": "Program General Info Edit",
@@ -627,7 +627,7 @@
             "__value": {
               "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
               "Query": "",
-              "BaseUrl": "",
+              "BaseUrl": "https://portalqa1.vps.foxinc.com",
               "EquivalentUrls": [],
               "Fragment": "",
               "Title": "Program General Info Edit",
@@ -686,7 +686,7 @@
             "__value": {
               "Path": "https://portalqa1.vps.foxinc.com/program/edit/-1/general-info",
               "Query": "",
-              "BaseUrl": "",
+              "BaseUrl": "https://portalqa1.vps.foxinc.com",
               "EquivalentUrls": [],
               "Fragment": "",
               "Title": "Program General Info Edit",
