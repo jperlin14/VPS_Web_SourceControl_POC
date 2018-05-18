@@ -6,12 +6,12 @@
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
-    "MenuHoldTime": 1.0,
-    "SilverlightConnectTimeout": 180000,
+    "MenuHoldTime": 1.5,
+    "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 2,
     "HighlightBorderColor": -65536,
-    "HighlightBorderSize": 1,
+    "HighlightBorderSize": 6,
     "CodeGenerationElementIdentificationType": 1,
     "UrlHistory": [],
     "AbsoluteDragDropRecording": true,
@@ -182,11 +182,11 @@
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "https://github.com/jperlin14/VPS_Web_SourceControl_POC.git",
+        "RemotePath": "http://fngtfs.foxinc.com:8080/tfs/Fox.Fbc/VPS/_git/VpsWebTest",
         "ServerInfo": {
           "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "https://github.com/jperlin14/VPS_Web_SourceControl_POC.git"
+            "ServerName": "http://fngtfs.foxinc.com:8080/tfs/Fox.Fbc/VPS/_git/VpsWebTest"
           }
         },
         "ServerType": 2
@@ -216,7 +216,7 @@
     "ExcludedFiles": [],
     "InDevelopmentFiles": [],
     "DisabledTranslators": [],
-    "SkipFindExpressionSetDataDrivenWarning": false,
+    "SkipFindExpressionSetDataDrivenWarning": true,
     "BugTrackerPersistableSettings": {},
     "ActiveBugTrackers": [],
     "BugTitleMask": "{Step name} step on {Test name} test failed.",
