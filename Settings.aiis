@@ -6,12 +6,21 @@
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
+<<<<<<< HEAD
     "MenuHoldTime": 1.5,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 2,
     "HighlightBorderColor": -65536,
     "HighlightBorderSize": 6,
+=======
+    "MenuHoldTime": 1.0,
+    "SilverlightConnectTimeout": 180000,
+    "BaseClassName": "BaseWebAiiTest",
+    "UrlRecordMode": 2,
+    "HighlightBorderColor": -65536,
+    "HighlightBorderSize": 1,
+>>>>>>> ab7ff8b1ec19ae0fa6210cc584526f2bbb765376
     "CodeGenerationElementIdentificationType": 1,
     "UrlHistory": [],
     "AbsoluteDragDropRecording": true,
@@ -179,8 +188,25 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "54b51bc1-8670-4fee-a8e4-e3073e49d0fc",
+<<<<<<< HEAD
     "SourceControlRepository": null,
     "IsOnline": false,
+=======
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/jperlin14/VPS_Web_SourceControl_POC.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/jperlin14/VPS_Web_SourceControl_POC.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
+>>>>>>> ab7ff8b1ec19ae0fa6210cc584526f2bbb765376
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -204,7 +230,11 @@
     "ExcludedFiles": [],
     "InDevelopmentFiles": [],
     "DisabledTranslators": [],
+<<<<<<< HEAD
     "SkipFindExpressionSetDataDrivenWarning": true,
+=======
+    "SkipFindExpressionSetDataDrivenWarning": false,
+>>>>>>> ab7ff8b1ec19ae0fa6210cc584526f2bbb765376
     "BugTrackerPersistableSettings": {},
     "ActiveBugTrackers": [],
     "BugTitleMask": "{Step name} step on {Test name} test failed.",

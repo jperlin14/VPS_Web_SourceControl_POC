@@ -18,12 +18,20 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "3d936051-9727-4264-84e6-5680a56e10e2",
+<<<<<<< HEAD
             "Description": "Comment: Changng comment for Git POC",
+=======
+            "Description": "Comment: Nothing to see here.",
+>>>>>>> ab7ff8b1ec19ae0fa6210cc584526f2bbb765376
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
               "__value": {
+<<<<<<< HEAD
                 "Comment": "Changng comment for Git POC",
+=======
+                "Comment": "Nothing to see here.",
+>>>>>>> ab7ff8b1ec19ae0fa6210cc584526f2bbb765376
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
