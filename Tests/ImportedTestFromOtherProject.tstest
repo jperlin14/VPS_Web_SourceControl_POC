@@ -30,12 +30,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f4ed19c6-43e1-47cc-9622-390fed8fcd23",
-            "Description": "Comment: Added Comment to this test",
+            "Description": "Comment: Changed again.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
               "__value": {
-                "Comment": "Added Comment to this test",
+                "Comment": "Changed again.",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
