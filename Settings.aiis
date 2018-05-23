@@ -6,12 +6,12 @@
     "ShouldDeleteElement": false,
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
-    "MenuHoldTime": 1.5,
-    "SilverlightConnectTimeout": 60000,
+    "MenuHoldTime": 1.0,
+    "SilverlightConnectTimeout": 180000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 2,
     "HighlightBorderColor": -65536,
-    "HighlightBorderSize": 6,
+    "HighlightBorderSize": 1,
     "CodeGenerationElementIdentificationType": 1,
     "UrlHistory": [],
     "AbsoluteDragDropRecording": true,
@@ -179,6 +179,7 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "54b51bc1-8670-4fee-a8e4-e3073e49d0fc",
+>>>>>>> 67f55edb25b4c7a9e152da618403704c2e24070f
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
@@ -193,6 +194,9 @@
       }
     },
     "IsOnline": true,
+=======
+>>>>>>> BranchToMergeIntoMaster
+>>>>>>> 67f55edb25b4c7a9e152da618403704c2e24070f
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
