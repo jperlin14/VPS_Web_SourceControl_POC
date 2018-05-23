@@ -13,8 +13,12 @@
           "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
           "__value": {
             "IsProfilingExecution": false,
-            "ExecutingBrowsers": [],
-            "UseMultiBrowserExecution": false,
+            "ExecutingBrowsers": [
+              1,
+              2,
+              6
+            ],
+            "UseMultiBrowserExecution": true,
             "RecycleBrowser": false,
             "AspNetDevServerPort": -1,
             "LocalWebServer": 0,
@@ -63,6 +67,22 @@
         "__value": {
           "Id": "28735820-d4dd-4fae-a058-5b4e010e8a8d",
           "Path": "Tests\\POC_FBC_NewProgram_AddBasicInfo.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "2bd96e2b-571f-4c32-b670-5c9c14986c6a",
+          "Path": "Tests\\LoginPrgrmSrchEditEpisodeLogout_new.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "3e319e2a-b7f7-44d4-a48e-925591bb0587",
+          "Path": "Tests\\ImportedTestFromOtherProject.tstest",
           "PathType": 0
         }
       }
